@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Élégance</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#0f172a,#1e293b,#111827);
+    color:white;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+    width:90%;
+    max-width:900px;
+    text-align:center;
+    padding:60px;
+    border-radius:25px;
+    background:rgba(255,255,255,.08);
+    backdrop-filter:blur(15px);
+    border:1px solid rgba(255,255,255,.15);
+    box-shadow:0 20px 60px rgba(0,0,0,.45);
+}
+
+h1{
+    font-size:55px;
+    margin-bottom:20px;
+}
+
+p{
+    color:#d1d5db;
+    line-height:1.8;
+    margin-bottom:35px;
+    font-size:18px;
+}
+
+button{
+    padding:15px 40px;
+    border:none;
+    border-radius:50px;
+    font-size:17px;
+    cursor:pointer;
+    background:white;
+    color:#111827;
+    transition:.3s;
+    font-weight:bold;
+}
+
+button:hover{
+    transform:translateY(-4px);
+    background:#38bdf8;
+    color:white;
+    box-shadow:0 10px 25px rgba(56,189,248,.4);
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+    <h1>Luxury Digital</h1>
+    <p>
+        Une expérience numérique moderne, élégante et minimaliste.
+        Découvrez des produits digitaux premium conçus pour vous.
+    </p>
+
+    <button onclick="welcome()">Découvrir</button>
+</div>
+
+<script>
+function welcome(){
+    alert("Bienvenue dans votre univers digital ✨");
+}
+</script>
+
+</body>
+</html>
